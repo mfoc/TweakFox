@@ -26,7 +26,7 @@ The purpose of the Tweakfox Firefox extension is twofold:
 1) To automatically customise the navigation bar in Firefox according to a 
    user specified custom arrangement. 
    
-2) To automatically configure virtually any Firefox preferences according 
+2) To automatically configure virtually any Firefox preference according 
    to a given set of user-specified preferences.
    
    Note:  Firefox preferences may be accessed and modified at any time 
@@ -42,20 +42,21 @@ However, there is a significant time investment required each time to manually
 configure the browser according to my preferences.  More specifically I have
 to manually:
 
-1) configure all of the Firefox options according to my needs and preferences.
+1) Configure many of the Firefox options according to my needs and preferences.
 
-2) customise the navigation bar according to my preferences.
+2) Customise and rearrange the navigation bar according to my preferences.
 
-3) Individually download and install several addons that I find essential 
+3) Individually download and install several addons that I find very useful 
    such as: quickdrag, adblock plus; close tab by double click; 
    all-in-one sidebar, site launcher and so on.
 
-   4) Individually configure each addon according to my preferences.
+4) Individually configure each addon according to my preferences.
 
 Tweakfox automates completely steps 1 and 2 above.  I subsequently created a 
-new container addon which I call firefoxKeyAddons.xpi containing all of my 
-favourite addons preconfigured according to my preferences plus my Tweakfox 
-addon.  Consequently, I can take a clean installation of a new stable release
+new Firefox addon collection pack which I call firefoxKeyAddons.xpi containing all of my favourite addons preconfigured according to my preferences plus my Tweakfox 
+addon.  
+
+Consequently, I can take a clean vanilla installation of a new stable release
 of the Firefox browser and by installing just one addon - namely 
 firefoxKeyAddons.xpi, the Firefox browser is instantly configured with all
 of my favourite addons, customisations and preferences with no extra work
@@ -75,7 +76,7 @@ once, when the addon is initially installed.  By running the script only once,
 any future customisations made by the user will be saved and not overwritten.
 
 tweakfoxprefs.js contains the user specified preferences.  You may modify 
-these preferences or enter new ones according to your needs.
+these preferences or add new ones according to your needs.
 
 TweakFox adds six new custom preferences:  They are:
 
