@@ -66,7 +66,7 @@ How to adapt and modify TweakFox!
 ---------------------------------
 There are only two javascript files in TweakFox:
 
-* TweakFox/chromecontent/tweakfox.js
+* TweakFox/chrome/content/tweakfox.js
 * TweakFox/defaults/preferences/tweakfoxprefs.js
   
 tweakfox.js contains all of the functionality of TweakFox.
