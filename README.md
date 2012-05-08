@@ -35,12 +35,12 @@ The purpose of the Tweakfox Firefox extension is twofold:
 
 What is the motivation behind TweakFox?
 ---------------------------------------
-For stability, performance and security reasons, It is recommended to use the 
+For stability, performance and security reasons, it is recommended to use the 
 latest stable release of the Firefox browser.
 
-However, there is a significant time investment required each time to manually 
-configure the browser according to my preferences.  More specifically I have
-to manually:
+However, with each new stable release there is a significant time investment 
+required to manually configure the browser according to my preferences.  
+Specifically, I have to:
 
 1) Configure many of the Firefox options according to my needs and preferences.
 
@@ -53,8 +53,9 @@ to manually:
 4) Individually configure each addon according to my preferences.
 
 Tweakfox automates completely steps 1 and 2 above.  I subsequently created a 
-new Firefox addon collection pack which I call firefoxKeyAddons.xpi containing all of my favourite addons preconfigured according to my preferences plus my Tweakfox 
-addon.  
+new Firefox addon collection pack which I call firefoxKeyAddons.xpi containing
+ all of my favourite addons preconfigured according to my preferences in 
+addition to my Tweakfox addon.  
 
 Consequently, I can take a clean vanilla installation of a new stable release
 of the Firefox browser and by installing just one addon - namely 
