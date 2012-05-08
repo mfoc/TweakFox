@@ -98,18 +98,18 @@ and tweaked according to their preferences.
 	customiseFirefoxNavBar : function(navBar) 
 	{
 		// Customise the Firefox navigation bar according to my preferences
-		var firefoxnavbar = document.getElementById("nav-bar");
+		var firefoxNavBar = document.getElementById("nav-bar");
 		// To retrieve the current navigation bar settings:
-		//var currentset = firefoxnavbar.currentSet;
+		//var currentset = firefoxNavBar.currentSet;
 		
 		// Update the arrangement of the navigation bar to new settings.	
-		firefoxnavbar.currentSet = navBar;
+		firefoxNavBar.currentSet = navBar;
 		
 		// Finally save the new navigation bar arrangement. 
 		// (As of Firefox version 12, the navigation bar customisations are
 		// stored in the file localstore.rdf located in the Firefox user 
 		// profile folder).
-		firefoxnavbar.setAttribute("currentset", navBar);
+		firefoxNavBar.setAttribute("currentset", navBar);
 		document.persist("nav-bar","currentset");
 	},	
 
