@@ -1,0 +1,20 @@
+Customise the quickdrag extension
+---------------------------------
+
+Objective:  Customise the quickdrag extension according to my preferences.
+
+1) Unzip the extension.
+
+2) Edit the file /defaults/preferences/quickdrag.js
+
+3) Set the following preferences:
+
+* pref("extensions.quickdrag.loadLinkInFG", false);
+* pref("extensions.quickdrag.loadSearchInFG", false);
+* pref("extensions.quickdrag.downloadImages", true);
+* pref("extensions.quickdrag.linkOpenOverride", true);
+* pref("extensions.quickdrag.handleImageDrags", true);
+* pref("extensions.quickdrag.handleNonImageDrags", true);
+* pref("extensions.quickdrag.marketing", false);
+	
+4) Save the file and repackage the xpi extension.

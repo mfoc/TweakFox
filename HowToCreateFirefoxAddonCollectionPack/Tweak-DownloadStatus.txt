@@ -1,0 +1,16 @@
+Customise the DownloadStatus extension
+======================================
+
+Objective:  To customise the downloadstatusbar extension according to my preferences.
+
+1) Unzip the extension.
+
+2) Edit the file /defaults/preferences/downbarconfig.js
+
+3) Set the following preferences:
+
+* pref("downbar.display.percent", true);
+* pref("downbar.display.time", false);
+* pref("downbar.function.keepHistory", false);
+
+4) Save the file and repackage the xpi extension.

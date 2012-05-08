@@ -52,16 +52,23 @@ Specifically, I have to:
 
 4) Individually configure each addon according to my preferences.
 
-Tweakfox automates completely steps 1 and 2 above.  I subsequently created a 
-new Firefox addon collection pack which I call firefoxKeyAddons.xpi containing
- all of my favourite addons preconfigured according to my preferences in 
-addition to my Tweakfox addon.  
+Tweakfox automates completely steps 1 and 2 above.
+
+I subsequently created a new Firefox addon collection pack which I call 
+firefoxKeyAddons.xpi containing all of my favourite addons preconfigured 
+according to my preferences in addition to the Tweakfox addon.  
 
 Consequently, I can take a clean vanilla installation of a new stable release
 of the Firefox browser and by installing just one addon - namely 
 firefoxKeyAddons.xpi, the Firefox browser is instantly configured with all
 of my favourite addons, customisations and preferences with no extra work
 required.
+
+
+Firefox Addon Collection Pack
+-----------------------------
+Instructions for creating a Firefox Addon Collection Pack are contained in the folder "HowToCreateFirefoxAddonCollectionPack".  It is very quick and easy to create a 
+collection pack.
 
 
 How to adapt and modify TweakFox!

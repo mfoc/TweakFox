@@ -1,0 +1,24 @@
+Customise the All-In-One Sidebar Extension
+------------------------------------------
+
+Objective:  To remove the bottom two buttons on the AIOS-sidebar - namely multi-panel button and the page info button
+
+1) Unzip the extension.
+
+2) Edit the file content/aios.js
+
+3) In function aios_initSidebar(), replace the following line:
+
+    aios_setSidebarOrient();
+
+with
+
+	aios_setSidebarOrient();
+	
+	// MFOC: Customise the sidebar by removing the multi-panel and page info buttons.
+	var currentset = aios_toolbar.currentSet;
+	currentset="bookmarks-button,history-button,separator,downloads-button,addons-button,separator"
+	aios_toolbar.setAttribute("currentset",currentset);
+	aios_toolbar.currentSet = currentset;
+	
+4)  Save the file and repackage the xpi extension.
