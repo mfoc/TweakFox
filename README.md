@@ -1,8 +1,14 @@
+TweakFox
 --------
+
 Name: 		TweakFox.xpi
+
 Version: 	1.3
+
 Date: 		07-May-2012
+
 Author: 	Martin Francis O'Connor
+
 HomePage:	http://www.computing.dcu.ie/~moconnor
 
 --------
@@ -35,12 +41,16 @@ latest stable release of the Firefox browser.
 However, there is a significant time investment required each time to manually 
 configure the browser according to my preferences.  More specifically I have
 to manually:
+
 1) configure all of the Firefox options according to my needs and preferences.
+
 2) customise the navigation bar according to my preferences.
+
 3) Individually download and install several addons that I find essential 
    such as: quickdrag, adblock plus; close tab by double click; 
    all-in-one sidebar, site launcher and so on.
-4) Individually configure each addon according to my preferences.
+
+   4) Individually configure each addon according to my preferences.
 
 Tweakfox automates completely steps 1 and 2 above.  I subsequently created a 
 new container addon which I call firefoxKeyAddons.xpi containing all of my 
@@ -55,8 +65,9 @@ required.
 How to adapt and modify TweakFox!
 ---------------------------------
 There are only two javascript files in TweakFox:
-  TweakFox/chromecontent/tweakfox.js
-  TweakFox/defaults/preferences/tweakfoxprefs.js
+
+* TweakFox/chromecontent/tweakfox.js
+* TweakFox/defaults/preferences/tweakfoxprefs.js
   
 tweakfox.js contains all of the functionality of TweakFox.
 The code is well documented and quite easy to follow. This script is only run 
@@ -67,10 +78,11 @@ tweakfoxprefs.js contains the user specified preferences.  You may modify
 these preferences or enter new ones according to your needs.
 
 TweakFox adds six new custom preferences:  They are:
-  pref("extensions.tweakfox.firstRun", true);
-  pref("extensions.tweakfox.enableDownloadPreferences", true);
-  pref("extensions.tweakfox.downloadFolder", "c:\\downloads");
-  pref("extensions.tweakfox.enableCustomNavBar", true);
-  pref("extensions.tweakfox.customNavBar", "bookmarks-menu-button-container,sync-button,separator,unified-back-forward-button,separator,home-button,separator,reload-button,stop-button,navigator-throbber,urlbar-container,search-container,fullscreenflex,window-controls");
-  pref("extensions.tweakfox.cleanHistoryOnExit", true);
+
+* pref("extensions.tweakfox.firstRun", true);
+* pref("extensions.tweakfox.enableDownloadPreferences", true);
+* pref("extensions.tweakfox.downloadFolder", "c:\\downloads");
+* pref("extensions.tweakfox.enableCustomNavBar", true);
+* pref("extensions.tweakfox.customNavBar", "bookmarks-menu-button-container,sync-button,separator,unified-back-forward-button,separator,home-button,separator,reload-button,stop-button,navigator-throbber,urlbar-container,search-container,fullscreenflex,window-controls");
+* pref("extensions.tweakfox.cleanHistoryOnExit", true);
   
