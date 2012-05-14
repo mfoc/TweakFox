@@ -6,9 +6,10 @@ Objective:  Customise the quickdrag extension according to my preferences.
 Important Notice
 ----------------
 The latest version at time of writting is 2.1.3.23.  
-This version contains adware.  The addons provides the user with the option 
-to disable the adware and marketing.  However, the addon secretly re-enables 
-the addon without informing the user.
+This version contains adware and only works with Firefox 7 or less.  
+This addon provides the user with the option to disable the adware and 
+marketing.  However, this addon secretly re-enables the adware without 
+informing the user.
 
 Consequently, I recommend downloading version 2.1.3.21 (which does not contain
 any adware) and updating it to work with any version of the Firefox browser.
