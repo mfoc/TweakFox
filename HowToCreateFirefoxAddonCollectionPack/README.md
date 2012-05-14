@@ -2,7 +2,7 @@
 
 A Firefox addon collection pack is a container for two or more addons.
 
-The purpose of a Firefox collection addon pack is to facilitate the 
+The purpose of a Firefox addon collection pack is to facilitate the 
 installation of several addons by packaging them into one 
 convenient addon.
 
@@ -13,7 +13,7 @@ convenient addon.
 2) Download your favourite addons and place them (a set of .xpi files) in the above folder.
 
 3) Optionally, configure each individual addon according to your preferences.
-   The step are detailed in the next section.
+   The steps are detailed in the next section.
 
 4) Copy the file "install.rdf" in to the "FirefoxKeyAddons" folder.
 
@@ -32,6 +32,6 @@ That's it.  Enjoy!
 
 3) Make the required changes.
 
-4) From Windows Explorer, select all of the files in the addon folder and zip them as <name_of_addon>.zip.
+4) From Windows Explorer, select all of the files in the addon folder and zip them as name_of_addon.zip.
 
 5) Rename the file extension from ".zip" to ".xpi".
