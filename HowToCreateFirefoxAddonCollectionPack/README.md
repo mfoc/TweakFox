@@ -1,7 +1,9 @@
-## How to create a Firefox Addon Collection Pack
+## What is a Firefox Addon Collection Pack
+
+A Firefox addon collection pack is a container for two or more addons.
 
 The purpose of a Firefox collection addon pack is to facilitate the 
-installation of two or more addons by packaging them into one 
+installation of several addons by packaging them into one 
 convenient addon.
 
 ## How to create the FirefoxKeyAddons.xpi Addon Collection Pack
