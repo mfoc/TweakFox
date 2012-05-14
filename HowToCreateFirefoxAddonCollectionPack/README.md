@@ -11,9 +11,7 @@ convenient addon.
 2) Download your favourite addons and place them (a set of .xpi files) in the above folder.
 
 3) Optionally, configure each individual addon according to your preferences.
-   An individual addon can be customised by extracting it (an .xpi file is a 
-   zip file), make the required changes, re-zip the files and rename the file 
-   extension from .zip to .xpi
+   The step are detailed in the next section.
 
 4) Copy the file "install.rdf" in to the "FirefoxKeyAddons" folder.
 
@@ -21,6 +19,17 @@ convenient addon.
 
 6) Rename the file from "FirefoxKeyAddons.zip" to "FirefoxKeyAddons.xpi".
 
-
 That's it.  Enjoy!
 
+
+## How to customise an individual addon.
+
+1) Download the addon and save it to your working folder.
+
+2) Unzip the addon (an .xpi file is a zip file) into a folder with the same name as the addon.
+
+3) Make the required changes.
+
+4) From Windows Explorer, select all of the files in the addon folder and zip them as <name_of_addon>.zip.
+
+5) Rename the file extension from ".zip" to ".xpi".
