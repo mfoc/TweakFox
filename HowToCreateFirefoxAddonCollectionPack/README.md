@@ -21,5 +21,6 @@ convenient addon.
 
 6) Rename the file from "FirefoxKeyAddons.zip" to "FirefoxKeyAddons.xpi".
 
+
 That's it.  Enjoy!
 

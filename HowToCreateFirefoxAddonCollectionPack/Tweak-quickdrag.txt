@@ -23,6 +23,21 @@ the Firefox browser are detailed below.
 
 1) Unzip the extension.
 
+2) Edit the file /install.rdf
+
+3) Locate all lines containing the xml element <em:maxVersion> and 
+   update the values to 99.*
+   The new lines should appear as follows:
+   <em:maxVersion>99.*</em:maxVersion>
+
+4) Save the file and repackage the xpi extension.
+
+
+Customise the quickdrag preferences.
+--------------------------------------------------------
+
+1) Unzip the extension.
+
 2) Edit the file /defaults/preferences/quickdrag.js
 
 3) Set the following preferences:
@@ -33,6 +48,5 @@ the Firefox browser are detailed below.
 * pref("extensions.quickdrag.linkOpenOverride", true);
 * pref("extensions.quickdrag.handleImageDrags", true);
 * pref("extensions.quickdrag.handleNonImageDrags", true);
-* pref("extensions.quickdrag.marketing", false);
 	
 4) Save the file and repackage the xpi extension.
