@@ -1,4 +1,4 @@
-TweakFox
+TweakFox  (Depreciated: Not compatible with Firefox Quantum's new extension system since Firefox version 57)
 --------
 
 Name: 		TweakFox.xpi
