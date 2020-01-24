@@ -9,8 +9,6 @@ Date: 		07-May-2012
 
 Author: 	Martin Francis O'Connor
 
-HomePage:	http://www.computing.dcu.ie/~moconnor
-
 --------
 
 What is TweakFox?
